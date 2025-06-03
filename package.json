@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.6",
+    "echarts": "^5.6.0",
+    "nuxt": "^3.17.3",
+    "vue": "^3.5.14",
+    "vue-echarts": "^7.0.3",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^1.5.1",
+    "@samk-dev/nuxt-vcalendar": "^1.0.4",
+    "unplugin-vue-components": "^28.5.0"
+  }
+}
